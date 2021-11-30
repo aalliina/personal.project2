@@ -10,6 +10,8 @@ header{
     align-items: center;
     padding: 20px;
     background-color: rgb(112, 204, 143);
+    position: fixed;
+    width: 100%;
 }
 .logo{
     cursor: pointer;
