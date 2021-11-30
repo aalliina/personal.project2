@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(171, 228, 185);
     box-sizing: border-box;
@@ -46,21 +47,68 @@ header{
 .contacts:hover{
 background-color: rgb(30, 133, 90);
 }
-.main {
-    display: flex;
-    text-align: left;
+
+a{
+    color: rgb(0, 2, 102);
+}
+.btn{
+    background-color: rgb(96, 146, 121);
     color: rgb(0, 0, 0);
+    width: 100%;
+    cursor: pointer;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    opacity: 0.8;
 }
-.a{
-    position: absolute;
-    bottom: 600px;
-    top: 200px;
-    left: 80px;
-    width: 25%;
-    
+.btn:hover{
+    opacity: 1;
 }
-.b{
+.footer{
+    background-color: rgb(112, 204, 143);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: rgb(0, 41, 22);
+        }
+.footer div{
+    padding: 50px;
+        }
+.footer{
+    display: flex;
+    flex-direction: row;
+ }
+.footer.a{
+    flex-basis: 20%;
+        }
+.footer{
+    justify-content: center;
+}
+.ftr a{
+     text-decoration: none;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 40px;
+}
+.post{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+input{
     padding: 5px 15px;
+    font-size: 30px;
     background-color: rgb(79, 165, 129);
     border: none;
     color: white;
@@ -68,13 +116,6 @@ background-color: rgb(30, 133, 90);
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
 }
-.b:hover{
+input:hover{
     background-color: rgb(56, 119, 93);
-}
-.text .s{
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: white;
 }
