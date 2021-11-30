@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(171, 228, 185);
     box-sizing: border-box;
@@ -44,30 +45,52 @@ header{
 .contacts:hover{
 background-color: rgb(30, 133, 90);
 }
-.main {
-    display: flex;
-    text-align: left;
+
+a{
+    color: rgb(0, 2, 102);
+}
+.btn{
+    background-color: rgb(96, 146, 121);
     color: rgb(0, 0, 0);
-}
-.a{
-    position: absolute;
-    bottom: 600px;
-    top: 200px;
-    left: 80px;
-    width: 25%;
-}
-.b{
-    padding: 5px 15px;
-    background-color: rgb(79, 165, 129);
-    border: none;
-    color: white;
-    border-radius: 10px;
+    width: 100%;
     cursor: pointer;
-    transition: background-color 0.3s ease 0s;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    opacity: 0.8;
 }
-.b:hover{
-    background-color: rgb(56, 119, 93);
+.btn:hover{
+    opacity: 1;
 }
-.text .s{
-    text-align: center;
+.footer{
+    background-color: rgb(112, 204, 143);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: rgb(0, 41, 22);
+        }
+.footer div{
+    padding: 50px;
+        }
+.footer{
+    display: flex;
+    flex-direction: row;
+ }
+.footer.a{
+    flex-basis: 20%;
+        }
+.footer{
+    justify-content: center;
+}
+.ftr a{
+     text-decoration: none;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    display: flex;
+    font-size: large;
+    justify-content: center;
 }

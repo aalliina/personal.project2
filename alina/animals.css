@@ -31,7 +31,7 @@ header{
     transition: color 0.3s ease 0s;
 }
 .nav-links li a:hover{
-    color: rgb(22, 85, 61);
+    color: rgb(37, 126, 92);
 }
 .contacts {
     padding: 9px 25px;
@@ -39,35 +39,55 @@ header{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: bacground-color 0.3s ease 0s;
-}
-.contacts:hover{
-background-color: rgb(30, 133, 90);
-}
-.main {
-    display: flex;
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
-.a{
-    position: absolute;
-    bottom: 600px;
-    top: 200px;
-    left: 80px;
-    width: 25%;
-}
-.b{
-    padding: 5px 15px;
-    background-color: rgb(79, 165, 129);
-    border: none;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
     transition: background-color 0.3s ease 0s;
 }
-.b:hover{
-    background-color: rgb(56, 119, 93);
+.contacts:hover{
+background-color: rgb(50, 141, 103);
 }
-.text .s{
+.main table{
+    display: flex;
+}
+.main {
+    padding: 20px;
+}
+td{  
+    font-size: 30px;  
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.t{
+    margin: auto;
     text-align: center;
+    width: 70%;
+    font-size: 35px;
 }
+
+.footer{
+    background-color: rgb(112, 204, 143);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: rgb(0, 41, 22);
+    }
+    .footer div{
+        padding: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer.a{
+        flex-basis: 20%;
+    }
+    .footer{
+        justify-content: center;
+    }
+    .ftr a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer a{
+        text-decoration: none;
+        color: black;
+    }
