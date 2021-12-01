@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(171, 228, 185);
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(112, 204, 143);
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links a, .contacts{
+ text-decoration: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(255, 255, 255);
+ font-weight: 500;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+.nav-links li{
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: color 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: rgb(22, 85, 61);
+}
+.contacts {
+    padding: 9px 25px;
+    background-color: rgb(43, 163, 113);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: bacground-color 0.3s ease 0s;
+}
+.contacts:hover{
+background-color: rgb(30, 133, 90);
+}
+.main {
+    display: flex;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.a{
+    position: absolute;
+    bottom: 600px;
+    top: 200px;
+    left: 80px;
+    width: 25%;
+    
+}
+.b{
+    padding: 5px 15px;
+    background-color: rgb(79, 165, 129);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+.b:hover{
+    background-color: rgb(56, 119, 93);
+}
+.text .s{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

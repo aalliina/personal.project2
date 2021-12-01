@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(171, 228, 185);
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(112, 204, 143);
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links a, .contacts{
+ text-decoration: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(255, 255, 255);
+ font-weight: 500;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+.nav-links li{
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: color 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: rgb(37, 126, 92);
+}
+.contacts {
+    padding: 9px 25px;
+    background-color: rgb(43, 163, 113);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+.contacts:hover{
+background-color: rgb(50, 141, 103);
+}
+.main table{
+    display: flex;
+}
+.main {
+    padding: 20px;
+}
+td{  
+    font-size: 30px;  
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.t{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    font-size: 35px;
+}
+
+.footer{
+    background-color: rgb(112, 204, 143);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: rgb(0, 41, 22);
+    }
+    .footer div{
+        padding: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer.a{
+        flex-basis: 20%;
+    }
+    .footer{
+        justify-content: center;
+    }
+    .ftr a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer a{
+        text-decoration: none;
+        color: black;
+    }
