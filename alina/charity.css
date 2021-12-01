@@ -47,11 +47,10 @@ header{
 background-color: rgb(50, 141, 103);
 }
 
-p, h3, h1{
-    font-size: 30px;
-}
+
 .t{
     text-align: center;
+    font-size: 30px;
 }
 button{
     padding: 6px 15px;
@@ -72,6 +71,7 @@ button:hover{
     justify-content: center;
     margin-left: 250px;
     margin-right: 250px;
+    font-size: 30px;
 }
 
 .footer{
@@ -101,4 +101,6 @@ button:hover{
         text-decoration: none;
         color: black;
     }
-  
+.g{
+      margin-left: 200px;
+  }
