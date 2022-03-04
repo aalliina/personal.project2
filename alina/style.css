@@ -5,12 +5,12 @@ body{
 }
 header{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    padding: 20px;
    background-color: rgb(170, 170, 170);
    position: fixed;
-   width: 100%;
+   width: 97%;
 }
 .logo{
    cursor: pointer;
@@ -128,4 +128,11 @@ color: rgb(0, 0, 0);
 .footer a{
    text-decoration: none;
    color: black;
+}
+*{
+  margin: 0;  
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
 }
