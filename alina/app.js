@@ -3,4 +3,4 @@ $("header .top .navlink").click(function() {
 });
 $("header .top .navlink").click(function() {
     $(".nav").slideUp();
-});
+}); 

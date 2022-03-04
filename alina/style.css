@@ -24,7 +24,7 @@ header{
    .nav-links{
       display: flex;
       list-style: none;
-      flex-direction: row;
+      flex-direction: row; 
    }
    .nav-links li{
       padding: 0px 20px;

@@ -74,7 +74,7 @@ a{
 .footer{
     display: flex;
     flex-direction: row;
- }
+ } 
 .footer.a{
     flex-basis: 20%;
         }
