@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приют для бездомных животных</title>
+    <link rel="stylesheet" href="animals.css">
+    <link rel="shortcut icon" href="../alina/images/pawprint.png">
+    <style>
+        .dropbtn {
+            background-color: rgb(170, 170, 170);
+            color: white;
+            padding: 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: rgb(170, 170, 170);
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position:absolute ;
+            background-color: #c2c2c2;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown a:hover {background-color: #ddd;}
+        
+        .show {display: block;}
+        </style>
+        </head>
+        <body>
+          <header>
+            <a class="logo" href="#"> <img src="images/24-hours.png" width="100px" alt=""></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="main.html"><b> Главная</b></a></li>
+                    <li><a href="index.html"><b>О нас</b></a></li>
+                    <li><a href="animals.html"><b>Наши животные</b></a></li>
+                </ul>
+            </nav>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" >Еще </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="reg.html"><b>Регистрация</b></a>
+            <a href="charity.html"><b>Благотворительность</b></a>
+            <a href="1.html" > <b>Обратная связь</b> </a>
+          </div>
+        </div>
+        </header>
+        <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+        
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script> <br><br> <br> <br> <br>
+    <div class="t">
+            <p>Каждое животное по своему прекрасно, и все они хотят обрести дои, и найти себе хозяина! <br> Не проходите мимо и заведите себе нового маленького друга.</p>
+    </div>
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs({
+      collapsible: true
+    });
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Джек</a></li>
+    <li><a href="#tabs-2">Дружок</a></li>
+    <li><a href="#tabs-3">Белла</a></li>
+    <li><a href="#tabs-4">Пушок</a></li>
+    <li><a href="#tabs-5">Бен</a></li>
+    <li><a href="#tabs-6">Матильда</a></li>
+    <li><a href="#tabs-7">Мишель</a></li>
+    <li><a href="#tabs-8">Винсент</a></li>
+    <li><a href="#tabs-9">Дейзи</a></li>
+    <li><a href="#tabs-10">Феликс</a></li>
+  </ul>
+  <div id="tabs-1">
+      <div class="tab">
+        <img src="https://www.mvestnik.ru/images/cms/thumbs/78e2efed84b1fde18958dc8f6eaa94670042dc20/dsc07521_750_auto_jpg_5_70.jpg" alt="photo" width="600px">
+        <p>
+            Дружелюбный пес, живет у нас 1,5 месяца, ищет себе новый дом, очень послушный, спокойный, никогда не шумит, любит частые прогулки. Если вы  предпочитаете более спокойный образ жизни - Джек идеальный вариант для вас!</p>
+
+      </div>
+  </div>
+  <div id="tabs-2">
+    <div class="tab">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwLiOzpgYG-KsCY59sNTtRW7vl4JtjcZ--A&usqp=CAU" alt="photo" width="600px">
+        <p>
+            Очень добрый пес, живет у нас 1 месяц, ищет себе новый дом, спокойный, послушный,не шумит, любит частые прогулки. Если вы  предпочитаете более спокойный образ жизни - Дружок идеальный вариант для вас
+        </p>
+    </div>
+  </div>
+  <div id="tabs-3">
+    <div class="tab">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjvyLR54K_dnLsY2YjlPZUlWBol42d5eZF2MVA9k3mG4BYXNqHuPiOmdSniulQOIx123M&usqp=CAU" alt="photo" width="600px">
+        <p> 
+            Молодая красивая собака, живет у нас 2 месяца, очень энергичная, любит играть с мячем, постоянно в движении, любит гулять. Если вы активный человек- Белла станет идеальным выбором.
+        </p>
+    </div>
+  </div>
+  <div id="tabs-4">
+      <div class="tab">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRitMDxCerKBAskRbJc2mkXAp7MRJaWmsaYdbXGhCn0_YXnrkLGtIHa-MIyPq6rEp8d0wU&usqp=CAU" alt="photo" width="600px">
+        <p>
+            
+ Красивый, энергичный пес, живет у нас 2 месяца понимает несколько команд (сидеть, стоять, голос) также очень активный, обожает прогулки на свежем воздухе.
+        </p>
+      </div>
+  </div>
+  <div id="tabs-5">
+    <div class="tab">
+<img src="https://gdb.rferl.org/a55d4117-00a5-496e-a421-80ef385c4f69_w408_r0_s.jpg" alt="">
+        
+        <p>
+            Спокойный и добрый пес, живет у нас 3 месяца любит когда о нем заботятся и уделяют много внимания, будет проводить с вами много времени и безумно вас любит, знает команды(ко мне, сидеть)
+        </p>
+    </div>
+  </div>
+  <div id="tabs-6">
+      <div class="tab">
+      <img src="https://inde.io/i/posts/25709/adbe62f283f25256039148fccf2fb20c.jpg" alt="photo"width="600px">
+
+      <p>Очаровательная кошка, у которой определенно есть свой шарм и своя "порода", к тому же, она очень ласковая и любит тепло и заботу, живет у нас 3 недели.</p>
+
+      </div>
+  </div>
+  <div id="tabs-7">
+      <div class="tab">
+
+        <img src="https://i.ibb.co/qJP0nmW/1545206639-1.jpg" alt="photo" width="600px">
+<p>Дружелюбная и спокойна кошка, таких как Мишель иногда называют кошками с характером, будет вас очень любить и радовать каждый день, живет у нас один месяц, очень хочет найти собственный дом.</p>
+      </div>
+  </div>
+  <div id="tabs-8">
+      <div class="tab">
+        <img src="https://mykharkov.info/wp-content/uploads/2014/12/bezdomnyj-kotenok-1600x1200-5686787-680x510.jpg" alt="photo" width="600px">
+<p>Молодой котенок, живет у нас 2 месяца, очень энергичный, любит играть с мячем, постоянно в движении, любит гулять. Если вы активный человек- Винсент станет идеальным выбором. </p>
+
+      </div>
+  </div>
+  <div id="tabs-9">
+      <div class="tab">
+        <img src="https://nikvesti.com/images/imageeditor/2021/3/10//214334_1.jpg" alt="photo" width="600px">
+<p> Дружелюбная кошка, живет у нас 1,5 месяца, ищет себе новый дом, очень послушная, спокойная, никогда не шумит, будет вас любить. Если вы  предпочитаете более спокойный образ жизни - Джек идеальный вариант для вас!</p>
+      </div>
+  </div>
+  <div id="tabs-10">
+      <div class="tab">
+        <img src="https://news.pn/photo/ddb2b3ee3c0c4a5bd43b6135bd3c8fae.i600x600x519.jpeg" alt="photo" width="600px">
+        <p>
+            Породистый кот, но при этой очень добрый и ласковый, много спит, но и гулять тоже любит, живет у нас 1 месяц.
+        </p>
+      </div>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
+
+
+    <div class="footer">
+        <div class="a">
+           <h3 >О НАС</h3>
+           <pre>
+           <p> <b>
+Реквизиты:
+Получатель:«ЦЕНТР ПОМОЩИ БЕЗДОМНЫМ ЖИВОТНЫМ»
+Банк получателя: Приват Банк, МоноБанк
+Приват Банк получателя: 000000000
+МоноБанк получателя: 000000000
+                
+000000, Днепропетровская область
+                
++380 (00) 000-00-00, +380 (00) 000-00-00 </b> </p>
+            </pre>
+        </div>
+        <div class="a">
+            <h3>ПОЛИТИКА БЕЗОПАСНОСТИ</h3>
+            <pre><p> <b>
+By sending a donation 
+to our foundation you agree
+to our <a href="#">Terms & Privacy</a></b> </p></pre> 
+        </div>
+        <div class="ftr">
+            <h3>НАША РАБОТА</h3>
+                <a href="index.html"><b>О нас</b></a> <br>
+                <a href="animals.html"><b>Наши животные</b></a> <br>
+                <a href="charity.html"><b>Благотворительность</b></a><br>
+        </div>
+    </div> 
+ </body> 
+ </html>  
